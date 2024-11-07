@@ -1,3 +1,18 @@
 .grid {
     border-width: 1px;
+    border-color: oklch(79.52% 0.1 302);
+    border-style: dashed;
+}
+.grid tr td {
+    --side: 25px;
+    max-width: var(--side);
+    max-height: var(--side);
+    min-width: var(--side);
+    min-height: var(--side);
+    width: var(--side);
+    height: var(--side);
+}
+
+.black {
+    background-color: oklch(79.52% 0.1 302);
 }
